@@ -1,0 +1,126 @@
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    
+    <!-- ================= BẢNG HOI_VIEN ================= -->
+    <mxCell id="hv_table" value="HOI_VIEN" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+      <mxGeometry x="120" y="200" width="260" height="150" as="geometry" />
+    </mxCell>
+    
+    <!-- Row 1: PK MaHV -->
+    <mxCell id="hv_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="hv_table">
+      <mxGeometry y="30" width="260" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r1_c1" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;fontStyle=1;overflow=hidden;" vertex="1" parent="hv_r1">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r1_c2" value="&lt;u&gt;MaHV: string&lt;/u&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;overflow=hidden;" vertex="1" parent="hv_r1">
+      <mxGeometry x="45" width="215" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Row 2: HoTen -->
+    <mxCell id="hv_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="hv_table">
+      <mxGeometry y="60" width="260" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r2_c1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;overflow=hidden;" vertex="1" parent="hv_r2">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r2_c2" value="HoTen: string" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;overflow=hidden;" vertex="1" parent="hv_r2">
+      <mxGeometry x="45" width="215" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Row 3: SoDienThoai -->
+    <mxCell id="hv_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="hv_table">
+      <mxGeometry y="90" width="260" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r3_c1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;overflow=hidden;" vertex="1" parent="hv_r3">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r3_c2" value="SoDienThoai: string" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;overflow=hidden;" vertex="1" parent="hv_r3">
+      <mxGeometry x="45" width="215" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Row 4: NgayDangKy -->
+    <mxCell id="hv_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="hv_table">
+      <mxGeometry y="120" width="260" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r4_c1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;overflow=hidden;" vertex="1" parent="hv_r4">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="hv_r4_c2" value="NgayDangKy: date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;overflow=hidden;" vertex="1" parent="hv_r4">
+      <mxGeometry x="45" width="215" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- ================= BẢNG BUOI_TAP ================= -->
+    <mxCell id="bt_table" value="BUOI_TAP" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+      <mxGeometry x="540" y="160" width="270" height="180" as="geometry" />
+    </mxCell>
+
+    <!-- Row 1: PK MaBuoiTap -->
+    <mxCell id="bt_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="bt_table">
+      <mxGeometry y="30" width="270" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r1_c1" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;fontStyle=1;overflow=hidden;" vertex="1" parent="bt_r1">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r1_c2" value="&lt;u&gt;MaBuoiTap: string&lt;/u&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;fontStyle=1;overflow=hidden;" vertex="1" parent="bt_r1">
+      <mxGeometry x="45" width="225" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Row 2: NgayTap -->
+    <mxCell id="bt_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="bt_table">
+      <mxGeometry y="60" width="270" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r2_c1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;overflow=hidden;" vertex="1" parent="bt_r2">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r2_c2" value="NgayTap: date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;overflow=hidden;" vertex="1" parent="bt_r2">
+      <mxGeometry x="45" width="225" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Row 3: GioTap -->
+    <mxCell id="bt_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="bt_table">
+      <mxGeometry y="90" width="270" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r3_c1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;overflow=hidden;" vertex="1" parent="bt_r3">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r3_c2" value="GioTap: time" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;overflow=hidden;" vertex="1" parent="bt_r3">
+      <mxGeometry x="45" width="225" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Row 4: TenHuanLuyenVien -->
+    <mxCell id="bt_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="bt_table">
+      <mxGeometry y="120" width="270" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r4_c1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;overflow=hidden;" vertex="1" parent="bt_r4">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r4_c2" value="TenHuanLuyenVien: string" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;overflow=hidden;" vertex="1" parent="bt_r4">
+      <mxGeometry x="45" width="225" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Row 5: FK MaHV -->
+    <mxCell id="bt_r5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;fillColor=none;collapsible=0;dropTarget=0;points=[];portConstraint=eastwest;" vertex="1" parent="bt_table">
+      <mxGeometry y="150" width="270" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r5_c1" value="FK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;verticalAlign=middle;fontStyle=1;overflow=hidden;" vertex="1" parent="bt_r5">
+      <mxGeometry width="45" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="bt_r5_c2" value="MaHV: string" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;verticalAlign=middle;spacingLeft=8;overflow=hidden;" vertex="1" parent="bt_r5">
+      <mxGeometry x="45" width="225" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- ================= ĐƯỜNG NỐI CHÂN QUẠ ================= -->
+    <mxCell id="edge_crow" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeColor=default;" edge="1" parent="1" source="hv_r1_c2" target="bt_r5_c1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="460" y="245" />
+          <mxPoint x="460" y="325" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+  </root>
+</mxGraphModel>
